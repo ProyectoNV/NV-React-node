@@ -15,10 +15,11 @@ const corsOptions = {
     methods: ['GET', 'POST','PUT','DELETE'],
 };
 app.use(cors(corsOptions));
+
 app.use("/",datosRouter);
 
 
-const puerto =process.env.puerto || 4000;
+const puerto =process.env.port || 4000;
 
 app.listen(puerto,()=>{
     console.log(`Escuchando en el puerto ${puerto}`)
