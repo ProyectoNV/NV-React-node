@@ -5,7 +5,7 @@ const adminController =require('../Controllers/Administrador/AdminController');
 const rutaDatos = express.Router();
 
 
-rutaDatos.get("/",adminController.VerDocente)
+rutaDatos.get("/ver_docentes",adminController.VerDocente)
 rutaDatos.post("/agregar",adminController.AgregarDocente)
 
 module.exports=rutaDatos;
