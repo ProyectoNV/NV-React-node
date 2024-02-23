@@ -17,6 +17,7 @@ import Lis from "./Vistas/Listado";
 import Listas from "./Vistas/Ver_listas";
 import Regis_alum from "./Vistas/Registro_Alumno";
 import Regis_Docente from "./Vistas/Registrar_Docente";
+import AdminListaDocentes from "./Vistas/adminListaDocentes";
 import Hacer_crono from "./Vistas/Hacer_horario";
 import Historial_user from "./Vistas/Historial_Usuario";
 import Enviar_Reporte from "./Vistas/Enviar_Reporte";
@@ -43,6 +44,7 @@ function App() {
         <Route path="/Historial_De_Usuario" element={<Historial_user/>}></Route>
         <Route path="/Agregar_cronograma" element={<Hacer_crono/>}></Route>
         <Route path="/registrar_Docente" element={<Regis_Docente/>}></Route>
+        <Route path="/ver_docentes" element={<AdminListaDocentes/>}></Route>
         <Route path="/registrar_alumno" element={<Regis_alum/>}></Route>
         <Route path="/verlista" element={<Listas/>}></Route>
         <Route path="/agregar" element={<Agregar/>}></Route>

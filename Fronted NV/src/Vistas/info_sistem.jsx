@@ -40,6 +40,7 @@ export const Info = () => {
 			            </article>
 					</div>
 					<div className="con-gen">
+						<a href="/ver_docentes">
 						<article className="caja-num">
                             <div className="caja-icono">
 					            <img src={Edit}/>
@@ -52,6 +53,7 @@ export const Info = () => {
 					            <small>Activo</small>
 				            </div>
 			            </article>
+						</a>
 					</div>
 					<div className="con-gen">
 						<article className="caja-num">
